@@ -1,4 +1,4 @@
-# 🏋️ AI Fitness Trainer Pro
+# 🏋️ AI Fitness Trainer
 
 **AI Fitness Trainer Pro** is an intelligent, computer vision-based workout assistant built with Python. It uses **MediaPipe** for real-time pose estimation and **Streamlit** for a modern, interactive dashboard. The application tracks your movements via webcam, counts repetitions automatically, and provides real-time feedback on your form to ensure safe and effective exercise.
 
@@ -109,4 +109,5 @@ python main.py
 
 * **Camera Error:** Ensure no other application (Zoom, Teams, etc.) is using the webcam.
 * **"Go Deeper" Warning:** The AI is strict! Ensure you hit the required angle (e.g., thighs parallel to ground for squats) to trigger the count.
+
 * **Slow Performance:** MediaPipe runs on CPU. Ensure your lighting is good; poor lighting forces the AI to work harder to find landmarks.
