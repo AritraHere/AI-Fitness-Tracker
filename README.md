@@ -1,13 +1,8 @@
 # 🏋️ AI Fitness Trainer
 
-**AI Fitness Trainer Pro** is an intelligent, computer vision-based workout assistant built with Python. It uses **MediaPipe** for real-time pose estimation and **Streamlit** for a modern, interactive dashboard. The application tracks your movements via webcam, counts repetitions automatically, and provides real-time feedback on your form to ensure safe and effective exercise.
+**AI Fitness Trainer** is an intelligent, computer vision-based workout assistant built with Python. It uses **MediaPipe** for real-time pose estimation and **Streamlit** for a modern, interactive dashboard. The application tracks your movements via webcam, counts repetitions automatically, and provides real-time feedback on your form to ensure safe and effective exercise.
 
 ## ✨ Key Features
-
-* **🧠 Smart Auto-Detection:**
-* **Bicep Curls:** The AI detects which arm is moving and tracks it.
-* **Idle State:** The system recognizes when you are resting or standing still, suppressing false "Perfect Form" scores until you actually start the rep.
-
 
 * **📊 Interactive Dashboard (Streamlit):**
 * Real-time video feed with skeletal overlays.
