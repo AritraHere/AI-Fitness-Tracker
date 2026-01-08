@@ -5,7 +5,7 @@
 ## ✨ Key Features
 
 * **🧠 Smart Auto-Detection:**
-* **Bicep Curls:** No need to select "Left" or "Right" arm manually. The AI automatically detects which arm is moving and tracks it.
+* **Bicep Curls:** The AI detects which arm is moving and tracks it.
 * **Idle State:** The system recognizes when you are resting or standing still, suppressing false "Perfect Form" scores until you actually start the rep.
 
 
@@ -111,3 +111,4 @@ python main.py
 * **"Go Deeper" Warning:** The AI is strict! Ensure you hit the required angle (e.g., thighs parallel to ground for squats) to trigger the count.
 
 * **Slow Performance:** MediaPipe runs on CPU. Ensure your lighting is good; poor lighting forces the AI to work harder to find landmarks.
+
